@@ -1,5 +1,5 @@
 import random
-print('感谢使用本程序，期望他能解决您的困扰。')
+print('感谢使用本程序，期望它能解决您的困扰。')
 mun1 = input('请键入计划一：')
 mun2 = input('请键入计划二：')
 end = random.randint(1, 2)
