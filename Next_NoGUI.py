@@ -15,6 +15,6 @@ two = input("")
 #WorkCode
 end = random.randint(1,2)
 if end == 1:
-    print('Your plan is', one)    
+    print('Your plan is', one)
 else:
     print('Your plan is', two)

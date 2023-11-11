@@ -16,7 +16,7 @@ plan = tk.Label(bg, text = '计划输出处', fg = 'grey')
 def code(mun1, mun2):
     end = random.randint(1,2)
     if end == 1:
-        plan.config(text = f'你的计划是 {mun1}', fg = 'black')    
+        plan.config(text = f'你的计划是 {mun1}', fg = 'black')
     else:
         plan.config(text = f'你的计划是 {mun2}', fg = 'black')
 def no():
@@ -32,8 +32,7 @@ lab_two = tk.Label(bg, text = '计划2:', width = 80)
 ent_one = tk.Entry(bg, width = 100, textvariable = new_one)
 ent_two = tk.Entry(bg, width = 100, textvariable = new_two)
 #Do_What
-but_y = tk.Button(bg, text = '确定',
-                 command = lambda:code(ent_one.get(), ent_two.get()))
+but_y = tk.Button(bg, text = '确定', command = lambda:code(ent_one.get(), ent_two.get()))
 but_n = tk.Button(bg, text = '重置', command = no)
 but_q = tk.Button(bg, text = '退出', command = qu)
 #Where
