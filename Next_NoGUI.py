@@ -5,10 +5,9 @@
 #Head
 import random
 #In
-mun =int(input("Your Plans munber is:"))
-print("OK, please input your Plans.")
+mun =int(input("Your number of plans is:"))
+print("OK, please input your Plans now.")
 #WorkCode
-i = 2
 #In
 one = input("")
 two = input("")
